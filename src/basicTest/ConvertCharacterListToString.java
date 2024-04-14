@@ -8,8 +8,8 @@ public class ConvertCharacterListToString {
 
     public static void main(String[] args) {
         String [] arr = {"a", "b", "c"};
-        String test = solution(arr);
-        if("abc".equals(test)){
+        String solution = solution(arr);
+        if("abc".equals(solution)){
             System.out.println("일치");
         }else{
             System.out.println("일치하지않음");
