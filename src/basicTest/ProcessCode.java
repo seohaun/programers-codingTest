@@ -21,7 +21,7 @@ https://school.programmers.co.kr/learn/courses/30/lessons/181932
  - code	            result
  - "abc1abc1abc"	"acbac"
  */
-public class ProcessingCode {
+public class ProcessCode {
     public static void main(String[] args) {
         String solution = solution("abc1abc1abc");
         if ("acbac".equals(solution)) {
