@@ -18,7 +18,7 @@ import java.util.Arrays;
  - ["l"]	                []
  입출력 예 설명
  - 입출력 예 #1 : "r"보다 "l"이 먼저 나왔기 때문에 "l"의 왼쪽에 있는 문자열들을 담은 리스트인 ["u", "u"]를 return합니다.
- - 입출력 예 #2 : "l"의 왼쪽에 문자열이 없기 때문에 빈 리스트를 return합니다.
+ - 입출력 예 #2 : "l"의 왼쪽에 문자열이 없기 때문에 빈 리스트를 return 합니다.
  */
 public class LeftRight {
     public static void main(String[] args) {
