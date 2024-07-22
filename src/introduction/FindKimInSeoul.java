@@ -16,7 +16,8 @@ public class FindKimInSeoul {
         OptionalInt index = IntStream.range(0, seoul.length)
                 .filter(i -> "Kim".equals(seoul[i]))
                 .findFirst();
-        if (index.isPresent()) {
+
+        if (index.orElse(0) != 0) {
             answer = "김서방은 "+index.getAsInt()+"에 있다";
         }
         return answer;
